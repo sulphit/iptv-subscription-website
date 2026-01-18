@@ -1,0 +1,198 @@
+.plans-page {
+  padding-top: 80px;
+}
+
+.plans-hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  color: #b0b0b0;
+}
+
+.plans-section {
+  padding: 5rem 2rem;
+}
+
+.plans-section:nth-child(even) {
+  background: rgba(0, 212, 255, 0.03);
+}
+
+.section-description {
+  text-align: center;
+  color: #b0b0b0;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.addons-section {
+  background: rgba(123, 44, 191, 0.05);
+}
+
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.addon-card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 2px solid rgba(0, 212, 255, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.addon-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0, 212, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+}
+
+.addon-card h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.addon-price {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+}
+
+.btn-addon {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-addon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+}
+
+.comparison-section {
+  padding: 5rem 2rem;
+  background: rgba(0, 212, 255, 0.05);
+}
+
+.comparison-table-wrapper {
+  overflow-x: auto;
+  margin-top: 3rem;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(26, 26, 26, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.comparison-table thead {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(123, 44, 191, 0.2) 100%);
+}
+
+.comparison-table th {
+  padding: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.comparison-table td {
+  padding: 1.2rem 1.5rem;
+  color: #b0b0b0;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.comparison-table tbody tr:hover {
+  background: rgba(0, 212, 255, 0.05);
+}
+
+.feature-name {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.plans-cta {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.plans-cta .cta-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.plans-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.plans-cta p {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  margin-bottom: 2rem;
+}
+
+.loading {
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #b0b0b0;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .pricing-grid,
+  .addons-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-table {
+    font-size: 0.9rem;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 1rem;
+  }
+}

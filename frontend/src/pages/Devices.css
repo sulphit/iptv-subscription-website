@@ -1,0 +1,246 @@
+.devices-page {
+  padding-top: 80px;
+}
+
+.devices-hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+}
+
+.devices-grid-section {
+  padding: 5rem 2rem;
+}
+
+.devices-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.device-card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 2px solid rgba(0, 212, 255, 0.2);
+  border-radius: 15px;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.device-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(0, 212, 255, 0.5);
+  box-shadow: 0 10px 40px rgba(0, 212, 255, 0.2);
+}
+
+.device-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(123, 44, 191, 0.2) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.device-card:hover .device-icon-wrapper {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.3) 0%, rgba(123, 44, 191, 0.3) 100%);
+  transform: scale(1.1);
+}
+
+.device-icon {
+  font-size: 3rem;
+  color: #00d4ff;
+}
+
+.device-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.device-description {
+  color: #b0b0b0;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.device-setup {
+  color: #00d4ff;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.setup-guide-section {
+  padding: 5rem 2rem;
+  background: rgba(0, 212, 255, 0.03);
+}
+
+.setup-steps {
+  max-width: 900px;
+  margin: 3rem auto 0;
+}
+
+.setup-step {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: flex-start;
+}
+
+.setup-step:last-child {
+  margin-bottom: 0;
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.step-content p {
+  color: #b0b0b0;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.formats-section {
+  padding: 5rem 2rem;
+}
+
+.formats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.format-card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 2px solid rgba(0, 212, 255, 0.2);
+  border-radius: 15px;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.format-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0, 212, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+}
+
+.format-icon {
+  font-size: 3rem;
+  color: #00d4ff;
+  margin-bottom: 1.5rem;
+}
+
+.format-card h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.format-card p {
+  color: #b0b0b0;
+  line-height: 1.6;
+}
+
+.apps-section {
+  padding: 5rem 2rem;
+  background: rgba(123, 44, 191, 0.05);
+}
+
+.apps-list {
+  max-width: 800px;
+  margin: 3rem auto 0;
+}
+
+.app-item {
+  background: rgba(26, 26, 26, 0.6);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.app-item:hover {
+  border-color: rgba(0, 212, 255, 0.5);
+  transform: translateX(5px);
+}
+
+.app-item h4 {
+  font-size: 1.2rem;
+  color: #00d4ff;
+  margin-bottom: 0.5rem;
+}
+
+.app-item p {
+  color: #b0b0b0;
+  font-size: 0.95rem;
+}
+
+.devices-cta {
+  padding: 5rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+}
+
+.devices-cta .cta-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.devices-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.devices-cta p {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .devices-grid,
+  .formats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .setup-step {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step-number {
+    margin: 0 auto;
+  }
+}
